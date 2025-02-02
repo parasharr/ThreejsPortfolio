@@ -3,6 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../components/CanvasLoader";
 
+// Desktop position and sizes
 const Computers = () => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
@@ -17,6 +18,8 @@ const Computers = () => {
     </mesh>
   );
 };
+
+// Importing computer canvas and Camera, Shadows
 const ComputersCanvas = () => {
   return (
     <Canvas
