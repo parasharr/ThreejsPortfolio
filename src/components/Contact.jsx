@@ -6,9 +6,6 @@ import Earth from "./Earth";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-// template_pguycy4
-// service_29r3tpi
-// gYSBC7eP7r3ymrVdq
 
 const Contact = () => {
   const formRef = useRef();
